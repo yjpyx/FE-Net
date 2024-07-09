@@ -1,4 +1,4 @@
-# V7_new
+# FE-Net
 Improving SAR Ship Target Detection Capability
 
 tensorflow-gpu==2.5.0
@@ -118,5 +118,4 @@ img/street.jpg
 4. 在yolo.py里面修改model_path以及classes_path。**model_path指向训练好的权值文件，在logs文件夹里。classes_path指向检测类别所对应的txt。**  
 5. 运行get_map.py即可获得评估结果，评估结果会保存在map_out文件夹中。
 
-## Reference
-https://github.com/WongKinYiu/yolov7
+
